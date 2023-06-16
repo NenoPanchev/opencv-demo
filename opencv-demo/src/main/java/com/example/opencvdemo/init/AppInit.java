@@ -37,7 +37,11 @@ public class AppInit implements CommandLineRunner {
 //        objectDetection.findFace();
 //        objectDetection.findFaceAndEyes();
 //        truckObjectDetection.reworkAllImages();
-        shapeDetection.startShapeDetection();
+//        shapeDetection.startShapeDetection();
+//        truckObjectDetection.showDifferenceBetweenTwoImages("ниска осветеност (1).png", "ниска осветеност (2).png");
+//        truckObjectDetection.showDifferenceBetweenTwoImages("осветно_(1).png", "осветно_(2).png");
+        truckObjectDetection.compareImages("ниска осветеност (1).png", "ниска осветеност (2).png");
+//        truckObjectDetection.compareImages("осветно_(1)-reworked.png", "осветно_(2)-reworked.png");
 
 //        String first = "генериране";
 //        String second = "генериране";

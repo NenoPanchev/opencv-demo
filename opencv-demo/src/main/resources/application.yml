@@ -9,3 +9,9 @@ app:
     - средна осветеност (3).png
     - средна осветеност (2).png
 
+logging:
+  file:
+    name: logs/opencvUpdated.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
